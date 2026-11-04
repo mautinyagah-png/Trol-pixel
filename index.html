@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trolley Pixel - Browser Platformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>TROLLEY PIXEL</h1>
+            <div id="hud">
+                <span id="level-display">STAGE: 1</span>
+                <span id="death-display">DEATHS: 0</span>
+            </div>
+        </header>
+
+        <main>
+            <canvas id="gameCanvas" width="640" height="360"></canvas>
+        </main>
+
+        <footer>
+            <p>Controls: Use <strong>A / D</strong> or <strong>Arrow Keys</strong> to Move | <strong>W / Space / Up Arrow</strong> to Jump | <strong>R</strong> to Retry</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
